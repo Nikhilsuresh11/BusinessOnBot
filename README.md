@@ -5,7 +5,7 @@
 
 
 
-![case1 code](https://user-images.githubusercontent.com/109418285/221884766-edca2ffc-f04e-4d9c-a68e-a88b6119a9a7.png =250x)
+![case1 code](https://user-images.githubusercontent.com/109418285/221884766-edca2ffc-f04e-4d9c-a68e-a88b6119a9a7.png)
 ![case2 code](https://user-images.githubusercontent.com/109418285/221884837-799efcb5-2654-40cc-8126-117ba3259b65.png)
 
 ![case1 OP](https://user-images.githubusercontent.com/109418285/221884907-9a1774a4-64b1-47c9-a257-3a46ed0f3b61.jpeg)
