@@ -1,0 +1,38 @@
+version: "2.0"
+
+stories:
+- story: happy path - addition
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_math
+  - action: action_ask_math_operation
+  - intent: inform
+    entities:
+    - number: 3
+    - operation: "addition"
+  - action: action_ask_first_number
+  - intent: inform
+    entities:
+    - number: 5
+  - action: action_ask_second_number
+  - action: action_perform_math_operation
+  - action: utter_result
+
+- story: happy path - subtraction
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_math
+  - action: action_ask_math_operation
+  - intent: inform
+    entities:
+    - number: 9
+    - operation: "subtraction"
+  - action: action_ask_first_number
+  - intent: inform
+    entities:
+    - number: 4
+  - action: action_ask_second_number
+  - action: action_perform_math_operation
+  - action
