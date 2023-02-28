@@ -3,24 +3,26 @@
 1) Backend Rest service with Flask 
 2) Chatbot using Rasa and JS
 
-This is a Flask REST service that fetches bank details from a SQLite database using the data given in the API’s query parameters.
+##1) Backend
 
-To run the application, follow these steps:
+  This is a Flask REST service that fetches bank details from a SQLite database using the data given in the API’s query parameters.
 
-Install the required dependencies using pip.
+  To run the application, follow these steps:
 
-Run the following command in your terminal:
+  Install the required dependencies using pip.
 
-pip install -r requirements.txt
+  Run the following command in your terminal:
 
-Make sure you have the bank details in CSV format.
+  pip install -r requirements.txt
 
-You can use the data available in this repository.
-Convert the CSV file to a SQLite database.
+  Make sure you have the bank details in CSV format.
 
-You can use the following command in your terminal:
-sqlite3 bank_details.db < csv_to_sqlite.sql
-Run the Flask app.
+  You can use the data available in this repository.
+  Convert the CSV file to a SQLite database.
+
+  You can use the following command in your terminal:
+  sqlite3 bank_details.db < csv_to_sqlite.sql
+  Run the Flask app.
 
 
 
@@ -29,6 +31,9 @@ Run the Flask app.
 
 ![case1 OP](https://user-images.githubusercontent.com/109418285/221884907-9a1774a4-64b1-47c9-a257-3a46ed0f3b61.jpeg)
 ![case2 OP](https://user-images.githubusercontent.com/109418285/221885005-e36222c8-e128-4ac1-be9b-0f35bf44cf7a.jpeg)
+
+
+
 
 ![bot1](https://user-images.githubusercontent.com/109418285/221884447-32c38f3e-bd4e-4291-a2a6-cb592f162242.png)
 ![bot2](https://user-images.githubusercontent.com/109418285/221884678-90498961-4e6e-4b3a-b336-b68fe184d19b.png)
