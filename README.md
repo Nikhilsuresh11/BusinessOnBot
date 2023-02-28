@@ -36,23 +36,23 @@
 ## 2) Chatbot
 
 
-Install Rasa: Use pip to install the Rasa framework on your system by running the command pip install rasa.
+  Install Rasa: Use pip to install the Rasa framework on your system by running the command pip install rasa.
 
-Create a Rasa project: Run the command rasa init to create a new Rasa project. 
+  Create a Rasa project: Run the command rasa init to create a new Rasa project. 
 
-Define the domain: The domain.yml file defines the domain of your chatbot, including entities, intents, actions, slots, and responses.
+  Define the domain: The domain.yml file defines the domain of your chatbot, including entities, intents, actions, slots, and responses.
 
-Define NLU data: NLU data is used to train the chatbot to understand user inputs. You can define NLU data in the data/nlu.md file.
+  Define NLU data: NLU data is used to train the chatbot to understand user inputs. You can define NLU data in the data/nlu.md file.
 
-Define stories: Stories are used to define the conversation flow of the chatbot. You can define stories in the data/stories.md file.
+  Define stories: Stories are used to define the conversation flow of the chatbot. You can define stories in the data/stories.md file.
 
-Define actions: Actions are used to perform certain actions based on the user's inputs. You can define actions in the actions.py file.
+  Define actions: Actions are used to perform certain actions based on the user's inputs. You can define actions in the actions.py file.
 
-Train the chatbot: Run the command rasa train to train your chatbot.
+  Train the chatbot: Run the command rasa train to train your chatbot.
 
-Define Flask app: Create a Flask application by defining a Flask app object and defining routes for the chatbot endpoints add some html and css to make it more appealing
+  Define Flask app: Create a Flask application by defining a Flask app object and defining routes for the chatbot endpoints add some html and css to make it more appealing
 
-Run the Flask app: Start the Flask app by running the command python app.py (assuming that the name of your Flask app file is app.py).
+  Run the Flask app: Start the Flask app by running the command python app.py 
 
 
 
